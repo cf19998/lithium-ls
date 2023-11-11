@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "";
+Config.title = "Lithium Project";
 
 /**
  * Enable map text in the top left corner of the screen?
@@ -27,8 +27,12 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Enjoy your stay!",
-  "This loadingscreen is made by Exsite"
+  "Добро пожаловать!",
+  "Правила можно найти в нашем дискорд-канале.",
+  "У нас на сервере разрешены оскорбления. Но не оскорбляйте родных! Это наказуемо.",
+  "Чтобы создать свой клан введите !squadmenu в чат.",
+  "На карте есть лутбоксы. В них могут быть гранаты, дробовоки и даже гранатомёт!",
+  "Патроны можно купить в Tab-меню",
 ];
 
 /**
